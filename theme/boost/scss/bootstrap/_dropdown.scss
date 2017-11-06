@@ -132,6 +132,17 @@
   left: auto; // Reset the default from `.dropdown-menu`
 }
 
+@media (min-width: 1200px) {
+  #page-course-management .dropdown-menu-right {
+    right: auto;
+  }
+}
+@media (max-width: 585px) {
+  #page-course-management .dropdown-menu-right {
+    left: 0;
+  }
+}
+
 .dropdown-menu-left {
   right: auto;
   left: 0;
